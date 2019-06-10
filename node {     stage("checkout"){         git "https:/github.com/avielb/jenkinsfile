@@ -1,8 +1,0 @@
-node {
-    stage("checkout"){
-        git "https://github.com/avielb/github-desktop.git"
-    }
-    stage("run python"){
-        sh "python 1.py"
-    }
-}
